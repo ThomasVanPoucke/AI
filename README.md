@@ -20,7 +20,7 @@ I've already added responses for these sentences:
 You can extend this list.
 The file <b>Strings/en-US/interaction.resw</b> contains 2 kind of key-value pairs. The ones ending with .question are the things
 you can say to Sara.
-For each <i>.question</i> there is a corresponding <i>.answer</i> record. This contains the response of Sara.
+For each <i>.question</i> there is a corresponding <i>.answer</i> record. This <i>.answer</i> contains Sara's response.
 E.g. the <i>howareyou.question</i> record has a corresponding <i>howareyou.answer</i> with the response of Sare.
 
 In case you want to extend this application:
