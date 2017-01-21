@@ -5,7 +5,7 @@ The purpose of this application is to answer to things you say.
 You can side-load this app to a Windows 10 installation (phone or desktop). Cortana needs to be enabled.
 
 Once you've clicked the button to start listening she will start to respond. 
-You don't need to say 'Hey Cortana' or anything. She will listen continuously.
+She will listen continuously and check if anything you say is something she needs to respond to.
 She uses a constrained list of things on which she will respond. Because the list of things on which she will respond is limited her speech recognition abilities are better than Cortana.
 
 I've already added some things on which she will respond:
