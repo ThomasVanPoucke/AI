@@ -7,7 +7,11 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <StackPanel>
+        <Button x:Name="btnContinuousRecognize" Content="Start" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="148" Height="63" Click="ContinuousRecognize_Click" IsEnabled="False" />
 
-    </Grid>
+        <TextBox x:Name="resultTextBlock" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="100" Width="340" />
+        <TextBox x:Name="heardYouSayTextBlock" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="100" Width="340"/>
+
+    </StackPanel>
 </Page>
